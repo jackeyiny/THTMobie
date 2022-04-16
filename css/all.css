@@ -1,0 +1,361 @@
+*{
+    margin:0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-default {
+    background-color: #cf1010;
+    
+}
+.navbar{
+    right: 13px;
+}
+header form{
+    color:antiquewhite;
+    font-weight: bold;
+    float:right;
+}
+.logo{
+    margin-bottom: 0px;
+    margin-left: 0px;
+   
+}
+
+ #txtGo{
+     background-color: black;
+     border-radius: 2px;
+     padding: 10px 20px 10px 20px;
+     border: 0px;
+     margin-top: 12px;
+     margin-bottom: 10px;
+ }
+ #txtSearch{
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-top: 25px;
+    position: relative;
+    background-color:white;
+    border-radius:2px ;
+    
+   
+ }
+ #txtSearch:focus{
+    width:300px; 
+    background-color:lightpink;
+}
+
+  #myUL {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 300px;
+   
+  }
+  .timkiem {
+    width: 400px;
+    margin: auto;
+    float: right;
+   
+  }
+  .timkiem button{
+      border: 0px;
+      
+  }
+
+  #myUL li a button{
+      width: 290px;
+
+  }
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 8px;
+    color: black;
+    display: block;
+  }
+
+  #myUL li a.header {
+    background-color: #e2e2e2;
+    cursor: default;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+#cart{
+     background-color:red;
+     color: white;
+     padding: 10px 20px 10px 20px;
+     border: 0px;
+     float: right;
+     margin-top: 12px;
+     margin-bottom: 10px;
+     font-size: 15px;
+}
+
+
+ nav li>a{
+     font-weight: bold;
+     color:aliceblue;
+ }
+ nav li:hover{
+     background-color: red;
+ }
+ .list{
+     margin-top: 30px;
+ }
+ .list button{
+     border:  0px;
+ }
+ .list img{
+    display:block;
+	transition: all .3s ease;
+}
+.list img:hover{
+    transform: scale(1.1);
+}
+section{
+    margin-top: 2px;
+   
+}
+ section button a{
+    color:black;
+}
+section button{
+    margin-left: 50px;
+    background-color: rgb(236, 152, 152);
+}
+section .form-group{
+   margin-left: 30px;
+}
+section h2{
+    padding-top:110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+
+.bannersection{
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.content{
+    margin-top: 35px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.content h3{
+    font-weight: bold;
+}
+
+.contentl img{
+    margin-bottom: 10px;
+    display:block;
+	transition: all .3s ease;
+}
+.contentl img:hover{
+    transform: scale(1.1);
+}
+
+.dienthoai{
+    margin-bottom: 600px;
+}
+.dienthoai h2{
+    font-weight: bold;
+    color: red;
+   
+}
+.dienthoai a{
+    float: right;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.a img{
+    display:block;
+	transition: all .3s ease;
+}
+.a img:hover{
+    transform: scale(1.1);
+}
+.a h5{
+    border: 0px solid black;
+    border-radius: 20px;
+    width: 150px;
+    background-color: red;
+    margin-left: 15px;
+    font-weight: bold;
+    color: white;
+    padding:10px;
+}
+.a p{
+    float: right;
+    text-decoration: line-through;
+}
+.a h4{
+    margin-left: 25px;
+    font-weight: bold;
+}
+.a button{
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin-left: 15px;
+    display:block;
+	transition: all .3s ease;
+}
+.img button{
+    background-color: white;
+    border: 0px;
+}
+.a button:hover{
+    transform: scale(1.1);
+}
+.footer{
+    text-align: center;
+    color: white;
+}
+.slide{
+    color: white;
+    font-size: 100px;
+}
+.gt h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+    width: 1000px;
+    text-align: center;
+}
+.gt h3{
+    font-style: italic;
+    font-weight: bold;
+}
+.gt a{
+    color:red;
+}
+.gt p{
+    font-weight: bold;
+}
+.gt ol{
+    margin-left: 40px;
+}
+ marquee{
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: red  ;
+}
+.tintuc{
+    text-align: justify;
+}
+.tintuc img{
+    height: 150px;
+    width: 400px;
+    float: left;
+    margin-bottom: 5px;
+}
+.tintuc button{
+    border: 0px;
+    float: right;
+    color: blue;
+
+}
+.tintuc button:hover{
+    color:red;
+}
+.ctnew li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ctnew p{
+    font-size: 15px;
+    font-weight: normal;
+}
+.ctnew img{
+    margin-left: 170px;
+}
+.ctnew a{
+    font-size: 20px;
+    float: right;
+}
+#txtDN,#txtMK,#txtKTMK,#txtTen,#txtDC,#txtCMND,#txtSDT,#txtND,#txtTD{
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+#txtDN:focus,#txtMK:focus,#txtKTMK:focus,#txtTen:focus,#txtDC:focus,#txtSDT:focus,#txtCMND:focus,#txtND:focus,#txtTD:focus{
+    background-color:lightpink
+}
+.tichdiem{
+    margin-top: 30px;
+}
+.tichdiem li{
+    font-weight: bold;
+}
+.tichdiem p{
+    font-weight: normal;
+}
+.dangky{
+    margin-top: 80px;
+}
+.dangky button{
+    margin-left: 120px;
+    background-color: lightpink;
+    border-color: red;
+    font-size:20px;
+    color:red;
+    padding: 4px 10px 4px 10px;
+}
+.dangky h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+   
+    width: 370px;
+    text-align: center;
+}
+#btngui{
+    font-size: 20px;
+    background-color: red;
+    width: 100px;
+    color:white;
+    border-radius: 5px;
+}
+.header {
+    font-family: poppins;
+    padding: 10px 0px;
+    background: url(../img/hea.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.yw{
+    text-align:center;
+    margin-top: 15px;
+}
+.tt{
+    margin-top: 30px;
+    margin-bottom: 300px;
+    font-size: 20px;
+}
